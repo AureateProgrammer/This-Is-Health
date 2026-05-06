@@ -125,5 +125,18 @@ button:hover {
 
 
 /*Search Bar*/
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #e0d5c5;
+  border-radius: 4px;
+  font-size: 16px;
+}
 
