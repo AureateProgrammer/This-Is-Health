@@ -5,7 +5,8 @@ export function Navbar() {
     
     return (
         <nav>
-            <h1>ImBetter</h1>
+            <img src="C:\Users\HoopS\Perscho\ImBetter\src\imgs\MentalHealth.png" alt="Mental Health-Image-Guy-With-Leaves-Around" />
+            <h1>This Is Health</h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Articles</a></li>
