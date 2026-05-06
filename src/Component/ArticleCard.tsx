@@ -13,5 +13,6 @@ export function ArticleCard({article, size = 'small'}: ArticleCardProps) {
             <p>{article.author}</p>
         </div>
     )
-}
+} 
 
+export default ArticleCard
