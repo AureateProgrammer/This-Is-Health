@@ -1,4 +1,6 @@
-
+import { ArticleList } from "../Component/ArticleList"
+import Navbar from "../Component/Navbar"
+import SearchBar from "../Component/SearchBar"
 export function Hero() {
 
     return (

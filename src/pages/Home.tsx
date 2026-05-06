@@ -9,7 +9,6 @@ export function Home() {
         <div>
             <Navbar />
             <Hero />
-                    <SearchBar />
             <ArticleList />
         </div>
     )

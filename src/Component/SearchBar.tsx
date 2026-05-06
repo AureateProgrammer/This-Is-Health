@@ -1,9 +1,9 @@
 import {useState} from 'react'
-
 export function SearchBar() {
   const [query, setQuery] = useState('')
 
     return (
+
         <div className="search-bar">
             <input
                 type="text"
