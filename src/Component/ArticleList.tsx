@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import article from '../types/article'
+import type article from '../types/article'
 
 export function ArticleList() {
     const [articles, setArticles] = useState<article[]>([]) 
