@@ -1,7 +1,7 @@
 import useState from 'react'
 
 
-function ArticleList() {
+export function ArticleList() {
   const [articles, setArticles] = useState([])
 
 
@@ -9,10 +9,12 @@ function ArticleList() {
         <div>
             <h2>Articles</h2>
             <ul>
-                {articles.map(article => (
+                {articles.map((article: string) => (
                     <li key={article.id}>{article.title}</li>
                 ))}
             </ul>
         </div>
     )
 }
+
+export default ArticleList
