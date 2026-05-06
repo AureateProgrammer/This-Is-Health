@@ -1,15 +1,15 @@
-import useState from 'react'
-
+import {useState} from 'react'
+import article from '../types/article'
 
 export function ArticleList() {
-  const [articles, setArticles] = useState([    ])
+    const [articles, setArticles] = useState<article[]>([]) 
 
 
     return (
         <div>
             <h2>Articles</h2>
             <ul>
-                {articles.map((article: string) => (
+                {articles.map((article: article) => (
                     <li key={article.id}>{article.title}</li>
                 ))}
             </ul>

@@ -9,3 +9,4 @@ export interface Article {
 
 }
 
+export type { Article as default }
