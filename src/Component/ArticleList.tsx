@@ -2,7 +2,7 @@ import useState from 'react'
 
 
 export function ArticleList() {
-  const [articles, setArticles] = useState([])
+  const [articles, setArticles] = useState([    ])
 
 
     return (
