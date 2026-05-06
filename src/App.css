@@ -53,10 +53,10 @@ nav ul a:hover {
   color: #2c2c2c;
   margin-bottom: 20px;
 }
-
+/* Button */
 button {
   padding: 12px 24px;
-  background-color: #ff6f61;
+  background-color: #ddcbb7;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -66,5 +66,5 @@ button {
 }
 
 button:hover {
-  background-color: #ff4c3b;
+  background-color: #264025;
 }
