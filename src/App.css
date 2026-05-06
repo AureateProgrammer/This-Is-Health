@@ -68,3 +68,14 @@ button:hover {
   background-color: #264025;
 }
 
+/*ArticleList*/
+.article-list{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+
+}
