@@ -2,7 +2,10 @@ export interface Article {
     id: number
     title: string
     content: string
-    string: string
+    author: string
     category: string
     thumbnailUrl: string
-    
+    datePublished: string
+
+}
+
