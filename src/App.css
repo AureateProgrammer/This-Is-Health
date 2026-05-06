@@ -27,7 +27,6 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: #2c2c2c;
-  font-size: 18px;
   font-weight: 500;
   transition: color 0.3s ease;
   font-size: 18px;
@@ -68,3 +67,4 @@ button {
 button:hover {
   background-color: #264025;
 }
+
