@@ -1,12 +1,13 @@
 
 
+import mentalHealth from "../imgs/MentalHealth.png";
+
 export function Navbar() {
     
     
     return (
         <nav>
-            <img src="C:\Users\HoopS\Perscho\ImBetter\src\imgs\MentalHealth.png" alt="Mental Health-Image-Guy-With-Leaves-Around" />
-            <h1>This Is Health</h1>
+            <img id="navlogo" src={mentalHealth} alt="Mental Health-Image-Guy-With-Leaves-Around" />
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Articles</a></li>

@@ -4,7 +4,7 @@ export function SearchBar() {
   const [query, setQuery] = useState('')
 
     return (
-        <div>
+        <div className="search-bar">
             <input
                 type="text"
                 placeholder="Search articles..."

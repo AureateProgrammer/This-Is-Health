@@ -114,3 +114,16 @@ button:hover {
 .larger-article {
   grid-column: span 2;
 }
+
+
+
+/*nav logo*/
+#navlogo {
+  width:120px;
+  height: 120px;  
+}
+
+
+/*Search Bar*/
+
+
