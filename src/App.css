@@ -206,10 +206,13 @@ button:hover {
   display: flex;
   border-radius: 6px;
   padding: 10px 40px;
-  background-color: #ff6f61;
+  background-color: #264025;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: inset 10px 2px 4px rgba(0,0,0,0.1);
+  margin: 2%;
+
 }
 .message {
   margin-bottom: 10px;
@@ -240,4 +243,4 @@ button:hover {
   .article-card img {
     height: auto;
   }
-} 
+}
