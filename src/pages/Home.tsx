@@ -10,7 +10,6 @@ export function Home() {
             <Navbar />
             <Hero />
             <ArticleList />
-            <LiveChatBox />
         </div>
     )
 }

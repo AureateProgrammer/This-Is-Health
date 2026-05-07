@@ -1,9 +1,10 @@
+
 export function LiveChatBox() {
     return( 
         <div className="live-chat">
-            <h2>Live Chat</h2>
+            <div className="live-chat-header">Live Chat</div>
 
-            <div className="chat-messages">
+            <div className="live-chat-messages">
                 <div className="message">
                     <p><strong>User1:</strong> Hi, how are you?</p>
                 </div>

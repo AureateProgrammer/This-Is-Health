@@ -9,9 +9,10 @@ export function Navbar() {
         <nav>
             <img id="navlogo" src={mentalHealth} alt="Mental Health-Image-Guy-With-Leaves-Around" />
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/Home">Home</a></li>
                 <li><a href="#">Articles</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="/socialize">Live Chat</a></li>
             </ul>
             <SearchBar/>
         </nav>
