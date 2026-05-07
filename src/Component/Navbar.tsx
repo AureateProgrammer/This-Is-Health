@@ -12,7 +12,7 @@ export function Navbar() {
                 <li><a href="/Home">Home</a></li>
                 <li><a href="#">Articles</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="/socialize">Live Chat</a></li>
+                <li><a href="/socialize">Chat Rooms </a></li>
             </ul>
             <SearchBar/>
         </nav>
