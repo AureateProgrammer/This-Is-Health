@@ -4,6 +4,7 @@ export function ChatRoom() {
             <div className="chat-room-copy">
                 <h1>Chat Room</h1>
                 <p>This is a chat room where you can come and chat with others.</p>
+            <h2>Welcome to the Chat Room!</h2>
             </div>
 
             <div className="chat-holder">

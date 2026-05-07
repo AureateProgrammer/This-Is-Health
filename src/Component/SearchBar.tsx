@@ -1,4 +1,8 @@
 import {useState} from 'react'
+
+interface SearchBarProps {
+    onSearch: (query: string) => void
+}
 export function SearchBar() {
   const [query, setQuery] = useState('')
 
