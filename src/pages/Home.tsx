@@ -2,7 +2,7 @@ import Navbar from '../Component/Navbar'
 import ArticleList from '../Component/ArticleList'
 import SearchBar from '../Component/SearchBar'
 import { Hero } from '../Component/Hero'
-import { useState, type SetStateAction } from 'react'
+import { useState } from 'react'
 
 export function Home() {
   const [query, setQuery] = useState<string>('')

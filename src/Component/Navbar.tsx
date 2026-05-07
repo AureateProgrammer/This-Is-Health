@@ -1,5 +1,4 @@
 
-import SearchBar from "./SearchBar";
 import mentalHealth from "../imgs/MentalHealth.png";
 
 export function Navbar() {
@@ -14,7 +13,6 @@ export function Navbar() {
                 <li><a href="#">About</a></li>
                 <li><a href="/socialize">Chat Rooms </a></li>
             </ul>
-            <SearchBar/>
         </nav>
     )
 }
