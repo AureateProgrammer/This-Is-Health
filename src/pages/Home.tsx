@@ -1,6 +1,5 @@
 import Navbar from '../Component/Navbar'
 import ArticleList from '../Component/ArticleList'
-import SearchBar from '../Component/SearchBar'
 import { Hero } from '../Component/Hero'
 import { useState } from 'react'
 
@@ -10,8 +9,7 @@ export function Home() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <SearchBar onSearch={(q: string) => setQuery(q)} /> 
+      <Hero onSearch={(q: string) => setQuery(q)} />
       <ArticleList query={query} />                   
     </div>
   )

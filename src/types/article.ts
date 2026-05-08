@@ -6,6 +6,7 @@ export interface Article {
     category: string
     thumbnailUrl: string
     datePublished: string
+    url: string
 
 }
 

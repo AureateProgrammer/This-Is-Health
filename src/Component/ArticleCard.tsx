@@ -7,11 +7,17 @@ interface ArticleCardProps {
 
 export function ArticleCard({article, size = 'small'}: ArticleCardProps) {
     return (
-        <div className={`article-card ${size}`}>
+        <a 
+            href={article.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`article-card ${size}`}
+        >
             <img src={article.thumbnailUrl} alt={article.title} />
             <h3>{article.title}</h3>
             <p>{article.author}</p>
-        </div>
+            <p>{article.category}</p>
+        </a>
     )
 } 
 

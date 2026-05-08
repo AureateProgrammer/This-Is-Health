@@ -2,14 +2,18 @@
   "name": "imbetter",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://AureateProgrammer.github.io/This-Is-Health/",
   "type": "module",
   "scripts": {
+	  "predeploy": "npm run build",
+	  "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.14.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",

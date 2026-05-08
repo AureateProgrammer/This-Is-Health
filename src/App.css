@@ -111,12 +111,14 @@ button:hover {
 }
 
 .article-card h3 {
+  font-family: 'Arial', sans-serif;
   font-size: 24px;
-  color: #2c2c2c;
+  color: #941e1e;
   margin: 16px 0 8px;
 }
 
  .article-card p {
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
   color: #555;
   margin: 0;
@@ -139,7 +141,6 @@ button:hover {
 .search-bar {
   border-radius: 10px;
   background-color: #fff8f0;
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -244,10 +245,8 @@ button:hover {
   }
 
   .hero {
-    padding: 60px 20px;
+    padding: 30px 20px;
   }
 
-  .article-card img {
-    height: auto;
-  }
+  
 }
