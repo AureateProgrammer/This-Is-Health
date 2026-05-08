@@ -1,10 +1,10 @@
-import ChatRoom from "../Component/LiveChat";
+// import ChatRoom from "../Component/LiveChat";
 
 
-export function Socialize() {
-    return (
-        <div>
-            <ChatRoom />
-        </div>
-    )
-}
+// export function Socialize() {
+//     return (
+//         <div>
+//             <ChatRoom />
+//         </div>
+//     )
+// }
